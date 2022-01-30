@@ -140,6 +140,20 @@ if (mix === true) {
   colorOne = 'purple';
 }
 */
+let colorOne = 'blue';
+let colorTwo = 'red';
+let mix = true;
+
+if (mix) {
+  colorOne = 'purple'
+  colorTwo = 'purple'
+}
+
+/* FIX
+The variables "colorOne" and "colorTwo" were incorrectly given the values 'red' and 'blue' respectively and needed to be switched.
+We also need to add "colorTwo" = 'purple' to the conditional in order to get colorTwo to change to 'purple' if mix = true.
+console.log should now give us 'purple' for both colorOne and colorTwo.
+*/
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4
@@ -153,6 +167,16 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+let temp = 40;
+const time = 4;
+
+if (temp > 39 && time >= 4) {
+  console.log('throw away the food!');
+}
+
+/* FIX
+In the conditional we need to change '||' to '&&' because we need BOTH the 'temp' to be greater than 40 AND 'time' to be equal or greater than 4.
+These conditionals are both met, so console.log will 'throw away the food!'.
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge
@@ -168,3 +192,16 @@ if(minAge <= age) {
   console.log('enter');
 }
 */
+let age = 21;
+const minAge = 21;
+
+if (age >= minAge) {
+  console.log('enter')
+}
+else {
+  console.log('no entry')
+}
+// FIX
+// In the conditional, the "<=" operator was incorrect, as we are going to allow entry if the "age" is equal to or greater than "minAge".
+// We also need to be mindful of the "=" because if "age" is equal to "minAge", we are also going to allow entry.
+// We rearrange the variables and change the operator to (age >= minAge), which will then console.log 'enter'.
