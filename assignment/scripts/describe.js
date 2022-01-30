@@ -26,7 +26,7 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// We create a changable variable called "name" and make it the string 'Dane'.
+// We create a changeable variable called "name" and make it the string 'Dane'.
 // We then create a conditional where if "name" is a strict equal to 'Mary', then the console will log 'Hi, Mary!'
 // If "name" is not equal to 'Mary', console will log 'How do you do?'.
 // Because "name" is 'Dane', console will log 'How do you do?'.
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
-//
+// We create a changeable variable called "secret", but do not give it a value. Therefore it is 'undefined'.
+// We then create a changeable variable named "code" and give it the number value 123.
+// We then write a conditional where if "code" is a strict equal to 123, the variable "secret" will be given the string value 'super', and the variable "code" will be multiplied by 2.
+// Because "code" is equal to 123, the "secret" variable becomes 'super', and "code" is multiplied by 2, becoming 246.
+// We then write another conditional where if "code" is greater than 250, the variable "secret" will change to 'duper'.
+// Console will log 'super' becuase code is 246, which is less than the 250 set in the conditional.
 
 //CODE
 /*
@@ -70,9 +72,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-//
-//
-//
+// We create a changeable variable named "isStudent" and give it the boolean value of true.
+// We create a changeable variable named "age" and give it the number value 34.
+// We create a changeable variable named "zip" and givr it the number value 55407.
 //
 
 //CODE
